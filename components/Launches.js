@@ -7,7 +7,6 @@ const LAUNCHES = gql`
       id
       mission_name
       launch_date_local
-      launch_year
       launch_success
       rocket {
         rocket_name
@@ -33,6 +32,8 @@ export default function Launches() {
             mission_name={launch.mission_name}
             date={launch.launch_date_local}
             success={launch.launch_success}
+            rocket_name={launch.rocket.rocket_name}
+            rocket_type={launch.rocket.rocket_type}
           ></LaunchItem>
         );
       })}
