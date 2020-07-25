@@ -18,3 +18,5 @@ A simple Next.js app which uses the [SpaceX GraphQL API](https://api.spacex.land
 - Run `yarn`
 - Run `yarn dev`
 - Visit `localhost:3000`
+
+A sample demo is hosted [here](https://spacexlaunchessm.netlify.app/)
