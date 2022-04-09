@@ -19,7 +19,7 @@
     "react-moment": "^0.9.7"
   },
   "devDependencies": {
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.5.2"
   }
